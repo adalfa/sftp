@@ -1,0 +1,8 @@
+CMD-LOG-LINE-BEGIN 26743 | 2020-08-03 12:53:46,703 | INFO | az_command_data_logger | command args: deployment group create --name {} -g {} --template-file {} --parameters {}
+CMD-LOG-LINE-BEGIN 26743 | 2020-08-03 12:54:20,562 | ERROR | cli.azure.cli.core.util | Deployment failed. Correlation ID: da63c6d9-4541-45d9-a708-ed80f442f859. {
+  "error": {
+    "code": "DuplicateVolumeMounts",
+    "message": "Duplicate volume mounts 'conf' in container 'sftp-adf' are found."
+  }
+}
+CMD-LOG-LINE-BEGIN 26743 | 2020-08-03 12:54:20,562 | INFO | az_command_data_logger | exit code: 1

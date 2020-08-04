@@ -1,0 +1,3 @@
+CMD-LOG-LINE-BEGIN 7966 | 2020-08-03 17:41:06,221 | INFO | az_command_data_logger | command args: deployment group create --name {} -g {} --template-file {} --parameters {}
+CMD-LOG-LINE-BEGIN 7966 | 2020-08-03 17:41:08,741 | ERROR | cli.azure.cli.core.util | InvalidTemplate - Deployment template validation failed: 'Template parameter JToken type is not valid. Expected 'Integer'. Actual 'Float'. Please see https://aka.ms/resource-manager-parameter-files for usage details.'.
+CMD-LOG-LINE-BEGIN 7966 | 2020-08-03 17:41:08,742 | INFO | az_command_data_logger | exit code: 1

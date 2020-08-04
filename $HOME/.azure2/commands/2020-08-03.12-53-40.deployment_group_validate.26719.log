@@ -1,0 +1,2 @@
+CMD-LOG-LINE-BEGIN 26719 | 2020-08-03 12:53:40,978 | INFO | az_command_data_logger | command args: deployment group validate -g {} --template-file {} --parameters {}
+CMD-LOG-LINE-BEGIN 26719 | 2020-08-03 12:53:42,435 | INFO | az_command_data_logger | exit code: 0

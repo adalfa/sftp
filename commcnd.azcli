@@ -1,0 +1,3 @@
+az  deployment group validate -g RG-AndreaDalFarra --template-file azuredeploy.json --parameters azuredeploy.parameters.json
+az  deployment group create --name adf1 -g RG-AndreaDalFarra --template-file azuredeploy.json --parameters azuredeploy.parameters.json
+create -r RG-AndreaDalFarra --te,s-vs

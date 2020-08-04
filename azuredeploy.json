@@ -1,0 +1,209 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storage": {
+            "type": "string"
+
+        },
+        "shareData": {
+            "type": "string",
+            "defaultValue": "data"
+        },
+        "shareQuotaData": {
+            "type": "int",
+            "defaultValue": 10
+
+        },
+        "shareConf": {
+            "type": "string",
+            "defaultValue": "conf"
+        },
+        "shareQuotaConf": {
+            "type": "int",
+            "defaultValue": 1
+
+        },
+        "shareScript": {
+            "type": "string",
+            "defaultValue": "script"
+        },
+        "shareQuotaScript": {
+            "type": "int",
+            "defaultValue": 1
+
+        },
+        "containerName": {
+            "type": "string",
+            "defaultValue": "sftp-adf"
+        }
+
+    },
+    "functions": [],
+    "variables": {
+
+        "suffixshort": "[substring(uniqueString(resourceGroup().id),0,5)]",
+        "suffixlong": "[substring(uniqueString(resourceGroup().id),0,10)]",
+        "storageName": "[toLower(concat(parameters('storage'),variables('suffixshort')))]"
+    },
+    "resources": [
+
+        {
+            "name": "[variables('storageName')]",
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2019-06-01",
+            "tags": {
+                "displayName": "[variables('storageName')]"
+            },
+            "location": "[resourceGroup().location]",
+            "kind": "StorageV2",
+            "sku": {
+                "name": "Standard_LRS",
+                "tier": "Standard"
+            },
+            "properties": {
+
+                "supportsHttpsTrafficOnly": true
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts/fileServices/shares",
+            "apiVersion": "2019-04-01",
+            "name": "[concat(variables('storageName'), '/default/', parameters('shareData'))]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]"
+            ],
+            "properties": {
+
+                "shareQuota": "[parameters('shareQuotaData')]"
+
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts/fileServices/shares",
+            "apiVersion": "2019-04-01",
+            "name": "[concat(variables('storageName'), '/default/', parameters('shareConf'))]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]"
+            ],
+            "properties": {
+
+                "shareQuota": "[parameters('shareQuotaConf')]"
+
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts/fileServices/shares",
+            "apiVersion": "2019-04-01",
+            "name": "[concat(variables('storageName'), '/default/', parameters('shareScript'))]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]"
+            ],
+            "properties": {
+
+                "shareQuota": "[parameters('shareQuotaScript')]"
+
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2019-12-01",
+            "name": "[parameters('containerName')]",
+            "location": "[resourceGroup().location]",
+
+
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerName')]",
+                        "properties": {
+                            "image": "atmoz/sftp",
+                            "ports": [
+
+                                {
+                                    "protocol": "TCP",
+                                    "port": 22
+                                }
+                            ],
+                            "environmentVariables": [
+
+                            ],
+                            "volumeMounts": [
+                                {
+                                    "name": "data",
+                                    "mountPath": "/home",
+                                    "readOnly": false
+
+                                },
+
+                                {
+                                    "name": "script",
+                                    "mountPath": "/etc/sftp.d",
+                                    "readOnly": true
+                                },
+                                {
+                                    "name": "conf",
+                                    "mountPath": "/etc/sftp",
+                                    "readOnly": true
+                                }
+
+
+
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 0.5,
+                                    "cpu": 1
+                                }
+                            }
+
+                        }
+                    }
+                ],
+                "restartPolicy": "OnFailure",
+                "ipAddress": {
+                    "ports": [
+                        {
+                            "protocol": "TCP",
+                            "port": 22
+                        }
+                    ],
+
+                    "type": "Public",
+                    "dnsNameLabel": "[parameters('containerName')]"
+                },
+                "osType": "Linux",
+                "volumes": [
+                    {
+                        "name": "data",
+                        "azureFile": {
+                            "shareName": "[parameters('shareData')]",
+                            "readOnly": false,
+                            "storageAccountName": "[variables('storageName')]",
+                            "storageAccountKey": "[listKeys(resourceId('Microsoft.Storage/storageAccounts',variables('storageName')),'2019-06-01').keys[0].value]"
+                        }
+                    },
+                    {
+                        "name": "conf",
+                        "azureFile": {
+                            "shareName": "[parameters('shareConf')]",
+                            "readOnly": true,
+                            "storageAccountName": "[variables('storageName')]",
+                            "storageAccountKey": "[listKeys(resourceId('Microsoft.Storage/storageAccounts',variables('storageName')),'2019-06-01').keys[0].value]"
+                        }
+                    },
+                    {
+                        "name": "script",
+                        "azureFile": {
+                            "shareName": "[parameters('shareScript')]",
+                            "readOnly": true,
+                            "storageAccountName": "[variables('storageName')]",
+                            "storageAccountKey": "[listKeys(resourceId('Microsoft.Storage/storageAccounts',variables('storageName')),'2019-06-01').keys[0].value]"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "outputs": {}
+}

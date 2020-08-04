@@ -1,0 +1,8 @@
+CMD-LOG-LINE-BEGIN 27079 | 2020-08-03 12:59:23,705 | INFO | az_command_data_logger | command args: deployment group create --name {} -g {} --template-file {} --parameters {}
+CMD-LOG-LINE-BEGIN 27079 | 2020-08-03 12:59:56,830 | ERROR | cli.azure.cli.core.util | Deployment failed. Correlation ID: 22d2e05b-7e08-408d-a188-efa066414f32. {
+  "error": {
+    "code": "CannotAccessStorageAccount",
+    "message": "The Azure storage account 'adfmsg26' in volume 'conf' can't be accessed: 'The remote server returned an error: (400) Bad Request.'. This can be caused by incorrect Azure storage account key or Azure storage firewalls."
+  }
+}
+CMD-LOG-LINE-BEGIN 27079 | 2020-08-03 12:59:56,830 | INFO | az_command_data_logger | exit code: 1

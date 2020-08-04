@@ -1,0 +1,188 @@
+12270 : 2020-08-03 10:14:40,540 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+12270 : 2020-08-03 10:14:40,541 : INFO : telemetry.check : Positive: The $HOME/.azure2/telemetry.txt does not exist.
+12270 : 2020-08-03 10:14:40,541 : DEBUG : telemetry.note : acquiring lock
+12270 : 2020-08-03 10:14:40,542 : DEBUG : telemetry.note : acquired lock
+12270 : 2020-08-03 10:14:40,542 : INFO : telemetry.note : Update the note mtime to 2020-08-03 10:14:40.542207
+12270 : 2020-08-03 10:14:40,542 : WARNING : telemetry.note : Fail to parse or read the timestamp 'N/A' in the note file. Set the last send time to minimal. Reason: not readable
+12270 : 2020-08-03 10:14:40,542 : INFO : telemetry.records : No cache to be uploaded.
+12270 : 2020-08-03 10:14:40,543 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+12270 : 2020-08-03 10:14:40,543 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
+12270 : 2020-08-03 10:14:40,543 : INFO : telemetry.note : Update the note mtime to 2020-08-03 10:14:40.543679
+15318 : 2020-08-03 10:25:04,869 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+15318 : 2020-08-03 10:25:04,870 : INFO : telemetry.check : Returns Positive.
+15318 : 2020-08-03 10:25:04,870 : DEBUG : telemetry.note : acquiring lock
+15318 : 2020-08-03 10:25:04,871 : DEBUG : telemetry.note : acquired lock
+15318 : 2020-08-03 10:25:04,871 : INFO : telemetry.note : Update the note mtime to 2020-08-03 10:25:04.871352
+15318 : 2020-08-03 10:25:04,904 : WARNING : telemetry.note : Fail to parse or read the timestamp '1-01-01T00:00:00' in the note file. Set the last send time to minimal. Reason: time data '1-01-01T00:00:00' does not match format '%Y-%m-%dT%H:%M:%S'
+15318 : 2020-08-03 10:25:04,905 : INFO : telemetry.records : No cache to be uploaded.
+15318 : 2020-08-03 10:25:04,905 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+15318 : 2020-08-03 10:25:04,906 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
+15318 : 2020-08-03 10:25:04,906 : INFO : telemetry.note : Update the note mtime to 2020-08-03 10:25:04.906547
+16770 : 2020-08-03 10:36:47,675 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+16770 : 2020-08-03 10:36:47,676 : INFO : telemetry.check : Returns Positive.
+16770 : 2020-08-03 10:36:47,676 : DEBUG : telemetry.note : acquiring lock
+16770 : 2020-08-03 10:36:47,676 : DEBUG : telemetry.note : acquired lock
+16770 : 2020-08-03 10:36:47,676 : INFO : telemetry.note : Update the note mtime to 2020-08-03 10:36:47.676535
+16770 : 2020-08-03 10:36:47,681 : WARNING : telemetry.note : Fail to parse or read the timestamp '1-01-01T00:00:00' in the note file. Set the last send time to minimal. Reason: time data '1-01-01T00:00:00' does not match format '%Y-%m-%dT%H:%M:%S'
+16770 : 2020-08-03 10:36:47,682 : INFO : telemetry.records : No cache to be uploaded.
+16770 : 2020-08-03 10:36:47,682 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+16770 : 2020-08-03 10:36:47,683 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
+16770 : 2020-08-03 10:36:47,683 : INFO : telemetry.note : Update the note mtime to 2020-08-03 10:36:47.683362
+17990 : 2020-08-03 10:52:40,118 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+17990 : 2020-08-03 10:52:40,119 : INFO : telemetry.check : Returns Positive.
+17990 : 2020-08-03 10:52:40,119 : DEBUG : telemetry.note : acquiring lock
+17990 : 2020-08-03 10:52:40,119 : DEBUG : telemetry.note : acquired lock
+17990 : 2020-08-03 10:52:40,119 : INFO : telemetry.note : Update the note mtime to 2020-08-03 10:52:40.119522
+17990 : 2020-08-03 10:52:40,123 : WARNING : telemetry.note : Fail to parse or read the timestamp '1-01-01T00:00:00' in the note file. Set the last send time to minimal. Reason: time data '1-01-01T00:00:00' does not match format '%Y-%m-%dT%H:%M:%S'
+17990 : 2020-08-03 10:52:40,124 : INFO : telemetry.records : 1 cache files to move.
+17990 : 2020-08-03 10:52:40,124 : INFO : telemetry.records : Create temp folder /tmp/tmp3ycdc91f
+17990 : 2020-08-03 10:52:40,125 : WARNING : telemetry.records : Fail to move file from $HOME/.azure2/telemetry/cache.1 to /tmp/tmp3ycdc91f/cache.1. Reason: [Errno 18] Invalid cross-device link: '$HOME/.azure2/telemetry/cache.1' -> '/tmp/tmp3ycdc91f/cache.1'.
+17990 : 2020-08-03 10:52:40,125 : INFO : telemetry.records : Remove directory /tmp/tmp3ycdc91f
+17990 : 2020-08-03 10:52:40,125 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+17990 : 2020-08-03 10:52:40,125 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
+17990 : 2020-08-03 10:52:40,125 : INFO : telemetry.note : Update the note mtime to 2020-08-03 10:52:40.125731
+21204 : 2020-08-03 11:31:05,409 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+21204 : 2020-08-03 11:31:05,409 : INFO : telemetry.check : Returns Positive.
+21204 : 2020-08-03 11:31:05,409 : DEBUG : telemetry.note : acquiring lock
+21204 : 2020-08-03 11:31:05,410 : DEBUG : telemetry.note : acquired lock
+21204 : 2020-08-03 11:31:05,410 : INFO : telemetry.note : Update the note mtime to 2020-08-03 11:31:05.410157
+21204 : 2020-08-03 11:31:05,414 : WARNING : telemetry.note : Fail to parse or read the timestamp '1-01-01T00:00:00' in the note file. Set the last send time to minimal. Reason: time data '1-01-01T00:00:00' does not match format '%Y-%m-%dT%H:%M:%S'
+21204 : 2020-08-03 11:31:05,415 : INFO : telemetry.records : 1 cache files to move.
+21204 : 2020-08-03 11:31:05,415 : INFO : telemetry.records : Create temp folder /tmp/tmpn7v38u1t
+21204 : 2020-08-03 11:31:05,415 : WARNING : telemetry.records : Fail to move file from $HOME/.azure2/telemetry/cache.1 to /tmp/tmpn7v38u1t/cache.1. Reason: [Errno 18] Invalid cross-device link: '$HOME/.azure2/telemetry/cache.1' -> '/tmp/tmpn7v38u1t/cache.1'.
+21204 : 2020-08-03 11:31:05,415 : INFO : telemetry.records : Remove directory /tmp/tmpn7v38u1t
+21204 : 2020-08-03 11:31:05,415 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+21204 : 2020-08-03 11:31:05,416 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
+21204 : 2020-08-03 11:31:05,416 : INFO : telemetry.note : Update the note mtime to 2020-08-03 11:31:05.416279
+22560 : 2020-08-03 11:46:47,713 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+22560 : 2020-08-03 11:46:47,714 : INFO : telemetry.check : Returns Positive.
+22560 : 2020-08-03 11:46:47,714 : DEBUG : telemetry.note : acquiring lock
+22560 : 2020-08-03 11:46:47,714 : DEBUG : telemetry.note : acquired lock
+22560 : 2020-08-03 11:46:47,714 : INFO : telemetry.note : Update the note mtime to 2020-08-03 11:46:47.714705
+22560 : 2020-08-03 11:46:47,718 : WARNING : telemetry.note : Fail to parse or read the timestamp '1-01-01T00:00:00' in the note file. Set the last send time to minimal. Reason: time data '1-01-01T00:00:00' does not match format '%Y-%m-%dT%H:%M:%S'
+22560 : 2020-08-03 11:46:47,719 : INFO : telemetry.records : 1 cache files to move.
+22560 : 2020-08-03 11:46:47,720 : INFO : telemetry.records : Create temp folder /tmp/tmp6vmd0eck
+22560 : 2020-08-03 11:46:47,720 : WARNING : telemetry.records : Fail to move file from $HOME/.azure2/telemetry/cache.1 to /tmp/tmp6vmd0eck/cache.1. Reason: [Errno 18] Invalid cross-device link: '$HOME/.azure2/telemetry/cache.1' -> '/tmp/tmp6vmd0eck/cache.1'.
+22560 : 2020-08-03 11:46:47,720 : INFO : telemetry.records : Remove directory /tmp/tmp6vmd0eck
+22560 : 2020-08-03 11:46:47,720 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+22560 : 2020-08-03 11:46:47,720 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
+22560 : 2020-08-03 11:46:47,720 : INFO : telemetry.note : Update the note mtime to 2020-08-03 11:46:47.720826
+23528 : 2020-08-03 11:56:52,367 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+23528 : 2020-08-03 11:56:52,367 : INFO : telemetry.check : Returns Positive.
+23528 : 2020-08-03 11:56:52,368 : DEBUG : telemetry.note : acquiring lock
+23528 : 2020-08-03 11:56:52,368 : DEBUG : telemetry.note : acquired lock
+23528 : 2020-08-03 11:56:52,368 : INFO : telemetry.note : Update the note mtime to 2020-08-03 11:56:52.368335
+23528 : 2020-08-03 11:56:52,372 : WARNING : telemetry.note : Fail to parse or read the timestamp '1-01-01T00:00:00' in the note file. Set the last send time to minimal. Reason: time data '1-01-01T00:00:00' does not match format '%Y-%m-%dT%H:%M:%S'
+23528 : 2020-08-03 11:56:52,373 : INFO : telemetry.records : 1 cache files to move.
+23528 : 2020-08-03 11:56:52,373 : INFO : telemetry.records : Create temp folder /tmp/tmp_ln3qxtp
+23528 : 2020-08-03 11:56:52,373 : WARNING : telemetry.records : Fail to move file from $HOME/.azure2/telemetry/cache.1 to /tmp/tmp_ln3qxtp/cache.1. Reason: [Errno 18] Invalid cross-device link: '$HOME/.azure2/telemetry/cache.1' -> '/tmp/tmp_ln3qxtp/cache.1'.
+23528 : 2020-08-03 11:56:52,374 : INFO : telemetry.records : Remove directory /tmp/tmp_ln3qxtp
+23528 : 2020-08-03 11:56:52,374 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+23528 : 2020-08-03 11:56:52,374 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
+23528 : 2020-08-03 11:56:52,374 : INFO : telemetry.note : Update the note mtime to 2020-08-03 11:56:52.374674
+24844 : 2020-08-03 12:27:57,299 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+24844 : 2020-08-03 12:27:57,299 : INFO : telemetry.check : Returns Positive.
+24844 : 2020-08-03 12:27:57,300 : DEBUG : telemetry.note : acquiring lock
+24844 : 2020-08-03 12:27:57,300 : DEBUG : telemetry.note : acquired lock
+24844 : 2020-08-03 12:27:57,300 : INFO : telemetry.note : Update the note mtime to 2020-08-03 12:27:57.300613
+24844 : 2020-08-03 12:27:57,305 : WARNING : telemetry.note : Fail to parse or read the timestamp '1-01-01T00:00:00' in the note file. Set the last send time to minimal. Reason: time data '1-01-01T00:00:00' does not match format '%Y-%m-%dT%H:%M:%S'
+24844 : 2020-08-03 12:27:57,305 : INFO : telemetry.records : 1 cache files to move.
+24844 : 2020-08-03 12:27:57,306 : INFO : telemetry.records : Create temp folder /tmp/tmptufj75z_
+24844 : 2020-08-03 12:27:57,306 : WARNING : telemetry.records : Fail to move file from $HOME/.azure2/telemetry/cache.1 to /tmp/tmptufj75z_/cache.1. Reason: [Errno 18] Invalid cross-device link: '$HOME/.azure2/telemetry/cache.1' -> '/tmp/tmptufj75z_/cache.1'.
+24844 : 2020-08-03 12:27:57,306 : INFO : telemetry.records : Remove directory /tmp/tmptufj75z_
+24844 : 2020-08-03 12:27:57,307 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+24844 : 2020-08-03 12:27:57,307 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
+24844 : 2020-08-03 12:27:57,307 : INFO : telemetry.note : Update the note mtime to 2020-08-03 12:27:57.307491
+26673 : 2020-08-03 12:53:22,401 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+26673 : 2020-08-03 12:53:22,401 : INFO : telemetry.check : Returns Positive.
+26673 : 2020-08-03 12:53:22,401 : DEBUG : telemetry.note : acquiring lock
+26673 : 2020-08-03 12:53:22,402 : DEBUG : telemetry.note : acquired lock
+26673 : 2020-08-03 12:53:22,402 : INFO : telemetry.note : Update the note mtime to 2020-08-03 12:53:22.402252
+26673 : 2020-08-03 12:53:22,407 : WARNING : telemetry.note : Fail to parse or read the timestamp '1-01-01T00:00:00' in the note file. Set the last send time to minimal. Reason: time data '1-01-01T00:00:00' does not match format '%Y-%m-%dT%H:%M:%S'
+26673 : 2020-08-03 12:53:22,408 : INFO : telemetry.records : 1 cache files to move.
+26673 : 2020-08-03 12:53:22,409 : INFO : telemetry.records : Create temp folder /tmp/tmp021yr307
+26673 : 2020-08-03 12:53:22,409 : WARNING : telemetry.records : Fail to move file from $HOME/.azure2/telemetry/cache.1 to /tmp/tmp021yr307/cache.1. Reason: [Errno 18] Invalid cross-device link: '$HOME/.azure2/telemetry/cache.1' -> '/tmp/tmp021yr307/cache.1'.
+26673 : 2020-08-03 12:53:22,409 : INFO : telemetry.records : Remove directory /tmp/tmp021yr307
+26673 : 2020-08-03 12:53:22,409 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+26673 : 2020-08-03 12:53:22,410 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
+26673 : 2020-08-03 12:53:22,410 : INFO : telemetry.note : Update the note mtime to 2020-08-03 12:53:22.410333
+27620 : 2020-08-03 13:03:34,448 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+27620 : 2020-08-03 13:03:34,449 : INFO : telemetry.check : Returns Positive.
+27620 : 2020-08-03 13:03:34,449 : DEBUG : telemetry.note : acquiring lock
+27620 : 2020-08-03 13:03:34,449 : DEBUG : telemetry.note : acquired lock
+27620 : 2020-08-03 13:03:34,449 : INFO : telemetry.note : Update the note mtime to 2020-08-03 13:03:34.449856
+27620 : 2020-08-03 13:03:34,490 : WARNING : telemetry.note : Fail to parse or read the timestamp '1-01-01T00:00:00' in the note file. Set the last send time to minimal. Reason: time data '1-01-01T00:00:00' does not match format '%Y-%m-%dT%H:%M:%S'
+27620 : 2020-08-03 13:03:34,491 : INFO : telemetry.records : 1 cache files to move.
+27620 : 2020-08-03 13:03:34,491 : INFO : telemetry.records : Create temp folder /tmp/tmpq_am517y
+27620 : 2020-08-03 13:03:34,491 : WARNING : telemetry.records : Fail to move file from $HOME/.azure2/telemetry/cache.1 to /tmp/tmpq_am517y/cache.1. Reason: [Errno 18] Invalid cross-device link: '$HOME/.azure2/telemetry/cache.1' -> '/tmp/tmpq_am517y/cache.1'.
+27620 : 2020-08-03 13:03:34,491 : INFO : telemetry.records : Remove directory /tmp/tmpq_am517y
+27620 : 2020-08-03 13:03:34,491 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+27620 : 2020-08-03 13:03:34,492 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
+27620 : 2020-08-03 13:03:34,492 : INFO : telemetry.note : Update the note mtime to 2020-08-03 13:03:34.492341
+28743 : 2020-08-03 13:30:28,282 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+28743 : 2020-08-03 13:30:28,283 : INFO : telemetry.check : Returns Positive.
+28743 : 2020-08-03 13:30:28,283 : DEBUG : telemetry.note : acquiring lock
+28743 : 2020-08-03 13:30:28,284 : DEBUG : telemetry.note : acquired lock
+28743 : 2020-08-03 13:30:28,284 : INFO : telemetry.note : Update the note mtime to 2020-08-03 13:30:28.284200
+28743 : 2020-08-03 13:30:28,289 : WARNING : telemetry.note : Fail to parse or read the timestamp '1-01-01T00:00:00' in the note file. Set the last send time to minimal. Reason: time data '1-01-01T00:00:00' does not match format '%Y-%m-%dT%H:%M:%S'
+28743 : 2020-08-03 13:30:28,290 : INFO : telemetry.records : 1 cache files to move.
+28743 : 2020-08-03 13:30:28,290 : INFO : telemetry.records : Create temp folder /tmp/tmp3xs7izaf
+28743 : 2020-08-03 13:30:28,290 : WARNING : telemetry.records : Fail to move file from $HOME/.azure2/telemetry/cache.1 to /tmp/tmp3xs7izaf/cache.1. Reason: [Errno 18] Invalid cross-device link: '$HOME/.azure2/telemetry/cache.1' -> '/tmp/tmp3xs7izaf/cache.1'.
+28743 : 2020-08-03 13:30:28,290 : INFO : telemetry.records : Remove directory /tmp/tmp3xs7izaf
+28743 : 2020-08-03 13:30:28,291 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+28743 : 2020-08-03 13:30:28,291 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
+28743 : 2020-08-03 13:30:28,291 : INFO : telemetry.note : Update the note mtime to 2020-08-03 13:30:28.291649
+7994 : 2020-08-03 17:41:09,518 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+7994 : 2020-08-03 17:41:09,529 : INFO : telemetry.check : Returns Positive.
+7994 : 2020-08-03 17:41:09,530 : DEBUG : telemetry.note : acquiring lock
+7994 : 2020-08-03 17:41:09,530 : DEBUG : telemetry.note : acquired lock
+7994 : 2020-08-03 17:41:09,531 : INFO : telemetry.note : Update the note mtime to 2020-08-03 17:41:09.530974
+7994 : 2020-08-03 17:41:09,557 : WARNING : telemetry.note : Fail to parse or read the timestamp '1-01-01T00:00:00' in the note file. Set the last send time to minimal. Reason: time data '1-01-01T00:00:00' does not match format '%Y-%m-%dT%H:%M:%S'
+7994 : 2020-08-03 17:41:09,558 : INFO : telemetry.records : 1 cache files to move.
+7994 : 2020-08-03 17:41:09,558 : INFO : telemetry.records : Create temp folder /tmp/tmp7fa09iu9
+7994 : 2020-08-03 17:41:09,558 : WARNING : telemetry.records : Fail to move file from $HOME/.azure2/telemetry/cache.1 to /tmp/tmp7fa09iu9/cache.1. Reason: [Errno 18] Invalid cross-device link: '$HOME/.azure2/telemetry/cache.1' -> '/tmp/tmp7fa09iu9/cache.1'.
+7994 : 2020-08-03 17:41:09,559 : INFO : telemetry.records : Remove directory /tmp/tmp7fa09iu9
+7994 : 2020-08-03 17:41:09,559 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+7994 : 2020-08-03 17:41:09,559 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
+7994 : 2020-08-03 17:41:09,559 : INFO : telemetry.note : Update the note mtime to 2020-08-03 17:41:09.559695
+8709 : 2020-08-03 17:52:18,438 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+8709 : 2020-08-03 17:52:18,439 : INFO : telemetry.check : Returns Positive.
+8709 : 2020-08-03 17:52:18,439 : DEBUG : telemetry.note : acquiring lock
+8709 : 2020-08-03 17:52:18,439 : DEBUG : telemetry.note : acquired lock
+8709 : 2020-08-03 17:52:18,439 : INFO : telemetry.note : Update the note mtime to 2020-08-03 17:52:18.439882
+8709 : 2020-08-03 17:52:18,454 : WARNING : telemetry.note : Fail to parse or read the timestamp '1-01-01T00:00:00' in the note file. Set the last send time to minimal. Reason: time data '1-01-01T00:00:00' does not match format '%Y-%m-%dT%H:%M:%S'
+8709 : 2020-08-03 17:52:18,456 : INFO : telemetry.records : 1 cache files to move.
+8709 : 2020-08-03 17:52:18,456 : INFO : telemetry.records : Create temp folder /tmp/tmps_dvhmsp
+8709 : 2020-08-03 17:52:18,456 : WARNING : telemetry.records : Fail to move file from $HOME/.azure2/telemetry/cache.1 to /tmp/tmps_dvhmsp/cache.1. Reason: [Errno 18] Invalid cross-device link: '$HOME/.azure2/telemetry/cache.1' -> '/tmp/tmps_dvhmsp/cache.1'.
+8709 : 2020-08-03 17:52:18,457 : INFO : telemetry.records : Remove directory /tmp/tmps_dvhmsp
+8709 : 2020-08-03 17:52:18,457 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+8709 : 2020-08-03 17:52:18,457 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
+8709 : 2020-08-03 17:52:18,458 : INFO : telemetry.note : Update the note mtime to 2020-08-03 17:52:18.457978
+10924 : 2020-08-03 18:23:49,429 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+10924 : 2020-08-03 18:23:49,430 : INFO : telemetry.check : Returns Positive.
+10924 : 2020-08-03 18:23:49,430 : DEBUG : telemetry.note : acquiring lock
+10924 : 2020-08-03 18:23:49,430 : DEBUG : telemetry.note : acquired lock
+10924 : 2020-08-03 18:23:49,430 : INFO : telemetry.note : Update the note mtime to 2020-08-03 18:23:49.430856
+10924 : 2020-08-03 18:23:49,435 : WARNING : telemetry.note : Fail to parse or read the timestamp '1-01-01T00:00:00' in the note file. Set the last send time to minimal. Reason: time data '1-01-01T00:00:00' does not match format '%Y-%m-%dT%H:%M:%S'
+10924 : 2020-08-03 18:23:49,436 : INFO : telemetry.records : 2 cache files to move.
+10924 : 2020-08-03 18:23:49,436 : INFO : telemetry.records : Create temp folder /tmp/tmpdvve4uk3
+10924 : 2020-08-03 18:23:49,436 : WARNING : telemetry.records : Fail to move file from $HOME/.azure2/telemetry/cache.1 to /tmp/tmpdvve4uk3/cache.1. Reason: [Errno 18] Invalid cross-device link: '$HOME/.azure2/telemetry/cache.1' -> '/tmp/tmpdvve4uk3/cache.1'.
+10924 : 2020-08-03 18:23:49,436 : WARNING : telemetry.records : Fail to move file from $HOME/.azure2/telemetry/cache.2 to /tmp/tmpdvve4uk3/cache.2. Reason: [Errno 18] Invalid cross-device link: '$HOME/.azure2/telemetry/cache.2' -> '/tmp/tmpdvve4uk3/cache.2'.
+10924 : 2020-08-03 18:23:49,436 : INFO : telemetry.records : Remove directory /tmp/tmpdvve4uk3
+10924 : 2020-08-03 18:23:49,436 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+10924 : 2020-08-03 18:23:49,437 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
+10924 : 2020-08-03 18:23:49,437 : INFO : telemetry.note : Update the note mtime to 2020-08-03 18:23:49.437335
+12662 : 2020-08-03 18:49:10,794 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+12662 : 2020-08-03 18:49:10,811 : INFO : telemetry.check : Returns Positive.
+12662 : 2020-08-03 18:49:10,812 : DEBUG : telemetry.note : acquiring lock
+12662 : 2020-08-03 18:49:10,813 : DEBUG : telemetry.note : acquired lock
+12662 : 2020-08-03 18:49:10,813 : INFO : telemetry.note : Update the note mtime to 2020-08-03 18:49:10.813344
+12662 : 2020-08-03 18:49:10,835 : WARNING : telemetry.note : Fail to parse or read the timestamp '1-01-01T00:00:00' in the note file. Set the last send time to minimal. Reason: time data '1-01-01T00:00:00' does not match format '%Y-%m-%dT%H:%M:%S'
+12662 : 2020-08-03 18:49:10,837 : INFO : telemetry.records : 2 cache files to move.
+12662 : 2020-08-03 18:49:10,837 : INFO : telemetry.records : Create temp folder /tmp/tmpg2aj3okm
+12662 : 2020-08-03 18:49:10,837 : WARNING : telemetry.records : Fail to move file from $HOME/.azure2/telemetry/cache.1 to /tmp/tmpg2aj3okm/cache.1. Reason: [Errno 18] Invalid cross-device link: '$HOME/.azure2/telemetry/cache.1' -> '/tmp/tmpg2aj3okm/cache.1'.
+12662 : 2020-08-03 18:49:10,838 : WARNING : telemetry.records : Fail to move file from $HOME/.azure2/telemetry/cache.2 to /tmp/tmpg2aj3okm/cache.2. Reason: [Errno 18] Invalid cross-device link: '$HOME/.azure2/telemetry/cache.2' -> '/tmp/tmpg2aj3okm/cache.2'.
+12662 : 2020-08-03 18:49:10,838 : INFO : telemetry.records : Remove directory /tmp/tmpg2aj3okm
+12662 : 2020-08-03 18:49:10,838 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
+12662 : 2020-08-03 18:49:10,839 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
+12662 : 2020-08-03 18:49:10,839 : INFO : telemetry.note : Update the note mtime to 2020-08-03 18:49:10.839534

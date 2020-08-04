@@ -1,0 +1,8 @@
+CMD-LOG-LINE-BEGIN 12622 | 2020-08-03 18:48:33,359 | INFO | az_command_data_logger | command args: deployment group create --name {} -g {} --template-file {} --parameters {}
+CMD-LOG-LINE-BEGIN 12622 | 2020-08-03 18:49:08,710 | ERROR | cli.azure.cli.core.util | Deployment failed. Correlation ID: 9d9edf85-30bf-496b-a081-0ae07d16cb8e. {
+  "error": {
+    "code": "InvalidRequestContent",
+    "message": "The request content was invalid and could not be deserialized: 'Could not find member 'mountOptions' on object of type 'VolumeMount'. Path 'properties.containers[0].properties.volumeMounts[0].mountOptions', line 1, position 255.'."
+  }
+}
+CMD-LOG-LINE-BEGIN 12622 | 2020-08-03 18:49:08,710 | INFO | az_command_data_logger | exit code: 1

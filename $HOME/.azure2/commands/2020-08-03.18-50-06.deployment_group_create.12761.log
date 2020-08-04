@@ -1,0 +1,8 @@
+CMD-LOG-LINE-BEGIN 12761 | 2020-08-03 18:50:06,195 | INFO | az_command_data_logger | command args: deployment group create --name {} -g {} --template-file {} --parameters {}
+CMD-LOG-LINE-BEGIN 12761 | 2020-08-03 18:50:39,513 | ERROR | cli.azure.cli.core.util | Deployment failed. Correlation ID: 8a258b70-267b-4b8f-9597-d7067039e8e9. {
+  "error": {
+    "code": "InvalidRequestContent",
+    "message": "The request content was invalid and could not be deserialized: 'Could not find member 'dir_mode' on object of type 'VolumeMount'. Path 'properties.containers[0].properties.volumeMounts[0].dir_mode', line 1, position 251.'."
+  }
+}
+CMD-LOG-LINE-BEGIN 12761 | 2020-08-03 18:50:39,514 | INFO | az_command_data_logger | exit code: 1
