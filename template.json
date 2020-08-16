@@ -19,7 +19,7 @@
                     {
                         "name": "[parameters('containerGroups_sftp_name')]",
                         "properties": {
-                            "image": "[concat('atmoz/', parameters('containerGroups_sftp_name'))]",
+                            "image": "[concat('adalfa/', 'sftpd:0.1')]",
                             "ports": [
                                 {
                                     "protocol": "TCP",

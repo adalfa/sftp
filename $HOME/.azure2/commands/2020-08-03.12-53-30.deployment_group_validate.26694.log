@@ -1,3 +1,0 @@
-CMD-LOG-LINE-BEGIN 26694 | 2020-08-03 12:53:30,090 | INFO | az_command_data_logger | command args: deployment group validate -g {} --template-file {} --parameters {}
-CMD-LOG-LINE-BEGIN 26694 | 2020-08-03 12:53:30,210 | ERROR | cli.azure.cli.core.util | Unable to parse parameter: azuredeply.parameters.json
-CMD-LOG-LINE-BEGIN 26694 | 2020-08-03 12:53:30,210 | INFO | az_command_data_logger | exit code: 1

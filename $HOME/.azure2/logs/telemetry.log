@@ -200,3 +200,26 @@
 360 : 2020-08-05 18:06:22,496 : INFO : telemetry.client : Accumulated 0 events. Flush the clients.
 360 : 2020-08-05 18:06:22,497 : INFO : telemetry.note : Update the last send in note to 0001-01-01 00:00:00
 360 : 2020-08-05 18:06:22,497 : INFO : telemetry.note : Update the note mtime to 2020-08-05 18:06:22.497181
+14585 : 2020-08-16 11:42:13,326 : INFO : telemetry.main : Attempt start. Configuration directory [$HOME/.azure2].
+14585 : 2020-08-16 11:42:13,354 : INFO : telemetry.check : Returns Positive.
+14585 : 2020-08-16 11:42:13,354 : DEBUG : telemetry.note : acquiring lock
+14585 : 2020-08-16 11:42:13,355 : DEBUG : telemetry.note : acquired lock
+14585 : 2020-08-16 11:42:13,355 : INFO : telemetry.note : Update the note mtime to 2020-08-16 11:42:13.355269
+14585 : 2020-08-16 11:42:13,385 : WARNING : telemetry.note : Fail to parse or read the timestamp '1-01-01T00:00:00' in the note file. Set the last send time to minimal. Reason: time data '1-01-01T00:00:00' does not match format '%Y-%m-%dT%H:%M:%S'
+14585 : 2020-08-16 11:42:13,386 : INFO : telemetry.records : 2 cache files to move.
+14585 : 2020-08-16 11:42:13,387 : INFO : telemetry.records : Create temp folder /tmp/tmp_jzzaau0
+14585 : 2020-08-16 11:42:13,469 : INFO : telemetry.records : Move file $HOME/.azure2/telemetry/cache.1 to /tmp/tmp_jzzaau0/cache.1
+14585 : 2020-08-16 11:42:13,525 : INFO : telemetry.records : Move file $HOME/.azure2/telemetry/cache.2 to /tmp/tmp_jzzaau0/cache.2
+14585 : 2020-08-16 11:42:13,528 : INFO : telemetry.records : Processed file /tmp/tmp_jzzaau0/cache.2 into 51 records.
+14585 : 2020-08-16 11:42:13,530 : INFO : telemetry.records : Processed file /tmp/tmp_jzzaau0/cache.1 into 86 records.
+14585 : 2020-08-16 11:42:13,530 : INFO : telemetry.records : Remove directory /tmp/tmp_jzzaau0
+14585 : 2020-08-16 11:42:13,556 : INFO : telemetry.client : Accumulated 100 events. Flush the clients.
+14585 : 2020-08-16 11:42:13,556 : INFO : telemetry.client : Flush client c4395b75-49cc-422c-bc95-c7d51aef5d46.
+14585 : 2020-08-16 11:42:14,762 : INFO : telemetry.sender : Sending 303186 bytes
+14585 : 2020-08-16 11:42:14,762 : INFO : telemetry.sender : Finish uploading in 1.188018 seconds.
+14585 : 2020-08-16 11:42:14,764 : INFO : telemetry.client : Accumulated 2 events. Flush the clients.
+14585 : 2020-08-16 11:42:14,765 : INFO : telemetry.client : Flush client c4395b75-49cc-422c-bc95-c7d51aef5d46.
+14585 : 2020-08-16 11:42:15,167 : INFO : telemetry.sender : Sending 6078 bytes
+14585 : 2020-08-16 11:42:15,168 : INFO : telemetry.sender : Finish uploading in 0.402725 seconds.
+14585 : 2020-08-16 11:42:15,169 : INFO : telemetry.note : Update the last send in note to 2020-08-03 17:53:42
+14585 : 2020-08-16 11:42:15,169 : INFO : telemetry.note : Update the note mtime to 2020-08-16 11:42:15.169716

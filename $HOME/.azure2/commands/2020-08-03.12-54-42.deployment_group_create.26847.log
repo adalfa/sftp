@@ -1,8 +1,0 @@
-CMD-LOG-LINE-BEGIN 26847 | 2020-08-03 12:54:42,197 | INFO | az_command_data_logger | command args: deployment group create --name {} -g {} --template-file {} --parameters {}
-CMD-LOG-LINE-BEGIN 26847 | 2020-08-03 12:55:15,357 | ERROR | cli.azure.cli.core.util | Deployment failed. Correlation ID: 4ad4407c-747c-4f9e-92d8-f448d61d2483. {
-  "error": {
-    "code": "InvalidVolumeName",
-    "message": "The volume name 'conf/ssh_host_ed25519_key' is invalid. The volume name must match the regex '[a-z0-9]([-a-z0-9]*[a-z0-9])?' (e.g. 'my-name')."
-  }
-}
-CMD-LOG-LINE-BEGIN 26847 | 2020-08-03 12:55:15,358 | INFO | az_command_data_logger | exit code: 1

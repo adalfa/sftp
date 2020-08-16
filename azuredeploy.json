@@ -117,7 +117,7 @@
                     {
                         "name": "[parameters('containerName')]",
                         "properties": {
-                            "image": "atmoz/sftp",
+                            "image": "adalfa/sftpd:0.1",
                             "ports": [
 
                                 {

@@ -1,0 +1,2 @@
+CMD-LOG-LINE-BEGIN 14079 | 2020-08-16 11:41:07,781 | INFO | az_command_data_logger | command args: deployment group create --name {} -g {} --template-file {} --parameters {}
+CMD-LOG-LINE-BEGIN 14079 | 2020-08-16 11:42:12,666 | INFO | az_command_data_logger | exit code: 0
